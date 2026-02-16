@@ -1,0 +1,30 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2E4D72"/>
+      <stop offset="100%" stop-color="#111A26"/>
+    </linearGradient>
+    <linearGradient id="house1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#92765D"/>
+      <stop offset="100%" stop-color="#5D4A3B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky1)"/>
+  <rect y="590" width="1200" height="210" fill="#0E141C"/>
+  <rect x="200" y="220" width="800" height="380" rx="8" fill="url(#house1)"/>
+  <rect x="260" y="150" width="680" height="70" rx="4" fill="#B7967A"/>
+  <g fill="#EFD7B0">
+    <rect x="260" y="280" width="90" height="70" rx="4"/>
+    <rect x="385" y="280" width="90" height="70" rx="4"/>
+    <rect x="510" y="280" width="90" height="70" rx="4"/>
+    <rect x="635" y="280" width="90" height="70" rx="4"/>
+    <rect x="760" y="280" width="90" height="70" rx="4"/>
+    <rect x="260" y="390" width="90" height="70" rx="4"/>
+    <rect x="385" y="390" width="90" height="70" rx="4"/>
+    <rect x="510" y="390" width="90" height="70" rx="4"/>
+    <rect x="635" y="390" width="90" height="70" rx="4"/>
+    <rect x="760" y="390" width="90" height="70" rx="4"/>
+  </g>
+  <rect x="530" y="470" width="140" height="130" rx="4" fill="#2E2118"/>
+  <text x="58" y="742" fill="#E7D0A4" font-family="Arial" font-size="42">Admiral</text>
+</svg>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Completed Projects Slider</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <main class="page">
+    <section class="slider" aria-label="Completed projects slider">
+      <nav class="slider__tabs" aria-label="Projects list">
+        <ul class="slider__tabs-list" id="sliderTabs"></ul>
+      </nav>
+
+      <div class="slider__content">
+        <div class="slider__info">
+          <h1 class="slider__title">Completed projects</h1>
+          <p class="slider__description">
+            Only a small part of the work performed by our company is presented on the site.
+            For 14 years on the market we have made happy more than 1000 families.
+          </p>
+
+          <dl class="slider__stats">
+            <div class="slider__stat">
+              <dt class="slider__stat-title">City:</dt>
+              <dd class="slider__stat-value" id="slideCity"></dd>
+            </div>
+            <div class="slider__stat">
+              <dt class="slider__stat-title">Apartment area:</dt>
+              <dd class="slider__stat-value" id="slideArea"></dd>
+            </div>
+            <div class="slider__stat">
+              <dt class="slider__stat-title">Repair time:</dt>
+              <dd class="slider__stat-value" id="slideTime"></dd>
+            </div>
+            <div class="slider__stat">
+              <dt class="slider__stat-title">Repair cost:</dt>
+              <dd class="slider__stat-value" id="slideCost"></dd>
+            </div>
+          </dl>
+
+          <div class="slider__controls">
+            <button class="slider__arrow" id="prevSlide" type="button" aria-label="Previous slide">
+              &#8592;
+            </button>
+            <div class="slider__dots" id="sliderDots" aria-label="Slide selectors"></div>
+            <button class="slider__arrow" id="nextSlide" type="button" aria-label="Next slide">
+              &#8594;
+            </button>
+          </div>
+        </div>
+
+        <figure class="slider__visual">
+          <img class="slider__image" id="slideImage" src="./images/slide-1.svg" alt="Project image">
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>

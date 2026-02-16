@@ -1,0 +1,27 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2D6E85"/>
+      <stop offset="100%" stop-color="#12303A"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F5A73"/>
+      <stop offset="100%" stop-color="#1E97B2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#sky2)"/>
+  <rect y="470" width="1200" height="330" fill="url(#sea)"/>
+  <rect x="160" y="300" width="880" height="220" rx="10" fill="#E4D6BF"/>
+  <rect x="200" y="220" width="800" height="90" rx="8" fill="#D3C3AA"/>
+  <g fill="#385A66">
+    <rect x="230" y="335" width="90" height="70" rx="4"/>
+    <rect x="355" y="335" width="90" height="70" rx="4"/>
+    <rect x="480" y="335" width="90" height="70" rx="4"/>
+    <rect x="605" y="335" width="90" height="70" rx="4"/>
+    <rect x="730" y="335" width="90" height="70" rx="4"/>
+    <rect x="855" y="335" width="90" height="70" rx="4"/>
+  </g>
+  <path d="M75 510L215 440L355 510V590H75V510Z" fill="#927A63"/>
+  <rect x="200" y="535" width="40" height="55" fill="#2B2723"/>
+  <text x="58" y="742" fill="#E7D0A4" font-family="Arial" font-size="42">Sochi</text>
+</svg>
