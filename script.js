@@ -5,8 +5,8 @@ const slides = [
     area: "81 m²",
     time: "3.5 months",
     cost: "Upon request",
-    image: "./images/slide-1.svg",
-    imageAlt: "Rostov-on-Don Admiral project"
+    image: "./images/slide-1.jpg",
+    imageAlt: "Apartment building facade with colorful balconies"
   },
   {
     tabLabel: "Sochi Thieves",
@@ -14,8 +14,8 @@ const slides = [
     area: "105 m²",
     time: "4 months",
     cost: "Upon request",
-    image: "./images/slide-2.svg",
-    imageAlt: "Sochi Thieves project"
+    image: "./images/slide-2.jpg",
+    imageAlt: "Modern apartment interior with city view"
   },
   {
     tabLabel: "Rostov-on-Don, Patriotic",
@@ -23,8 +23,8 @@ const slides = [
     area: "93 m²",
     time: "3 months",
     cost: "Upon request",
-    image: "./images/slide-3.svg",
-    imageAlt: "Rostov-on-Don Patriotic project"
+    image: "./images/slide-3.jpg",
+    imageAlt: "Apartment room under renovation"
   }
 ];
 
