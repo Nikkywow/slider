@@ -63,13 +63,17 @@ function renderSlide(nextIndex) {
   tabElements.forEach((tab, index) => {
     const isActive = index === state.activeIndex;
     tab.classList.toggle("is-active", isActive);
-    tab.setAttribute("aria-current", String(isActive));
+    if (isActive) {
+      tab.setAttribute("aria-current", "page");
+    } else {
+      tab.removeAttribute("aria-current");
+    }
   });
 
   dotElements.forEach((dot, index) => {
     const isActive = index === state.activeIndex;
     dot.classList.toggle("is-active", isActive);
-    dot.setAttribute("aria-current", String(isActive));
+    dot.setAttribute("aria-pressed", String(isActive));
   });
 }
 
@@ -81,7 +85,6 @@ function createNavigation() {
     tabLink.href = "#";
     tabLink.textContent = slide.tabLabel;
     tabLink.dataset.index = String(index);
-    tabLink.setAttribute("role", "button");
     tabLink.addEventListener("click", (event) => {
       event.preventDefault();
       renderSlide(index);
